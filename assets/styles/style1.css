@@ -1,0 +1,157 @@
+body{
+    margin:0px auto;
+    width:100%;
+    
+}
+nav ul li 
+{
+    list-style-type:none;
+    float:left;
+    padding-left: 10px;
+    color:azure;
+}
+nav ul{
+    float: right;
+    width: 100%;
+}
+nav{
+    width: 100% ;
+    height:50px;
+    background-color: burlywood;
+    position: fixed;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #ffff;
+}
+section{
+    background-color: #f3eac2;
+}
+.home{
+    background-color: #ff9a76;
+    text-align: center;
+    font-size: 48px;
+    color:azure;
+    display: table;
+    height: 100vhg;
+    width:100%; 
+}
+.inner{
+    display:table-cell;
+}
+.home img{
+    border-radius: 100%;
+    width:250px;
+    height:250px;
+}
+.about{
+    background-image:url('https://i.pinimg.com/736x/24/b0/d7/24b0d70a51a8d3fd81e1da2313467d0b.jpg');
+    display: table;
+    height: 100vh;
+    width: 100%;
+    background-position: cover;
+}
+.about .inner{
+    display: table-cell;
+    vertical-align: middle;
+    width: 90%;
+    float: left;
+    padding-top: 75px;
+    padding-left: 50px;
+}
+.about .inner h1{
+    font-size: 42px;
+    color: #fff;
+    font-weight: 300;
+}
+.about .inner p{
+    font-size: 28px;
+}
+.home .inner h1{
+    font-family: cursive;
+}
+.education{
+    background-color: darksalmon;
+    display: table;
+    height: 100vh;
+    width: 100%;
+}
+.education .inner{
+    padding: 50px;
+}
+.education h1,.hobbies h1,.skills h1,.contact h1{
+    font-size: 42px;
+}
+.education .inner div, .hobbies .inner div,.skills .inner div{
+    width:30%;
+    margin-left:5px;
+    margin-right: 5px;
+    float: left;
+    text-align: center;
+}
+.education .inner div p,.hobbies .inner div p,.skills .inner div ul li,.contact .inner div p{
+    font-size: 32px;
+}
+.education .inner div img, .hobbies .inner div img{
+    width: 100px;
+    height: auto;
+}
+.hobbies,.skills,.contact{
+    background-color: darksalmon;
+    display: table;
+    height: 100vh;
+    width: 100%;
+}
+.hobbies .inner,.contact .inner{
+    padding: 50px;
+}
+.skills{
+    background-image: url('https://blog.bannersnack.com/wp-content/uploads/2016/05/Banner-Ad-Design-Examples--1024x539.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.skills .inner{
+    background-color: rgba(0,0,0,0.4);
+    padding: 50px;
+    color: #fff;
+}
+.skills .inner div ul li{
+    list-style-type: none;
+    
+}
+.skills .inner div ul li{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.contact .inner{
+    text-align: center;
+}
+/* responsive designing */
+@media (min-width: 320px) and (max-width:767px){
+    .home .inner .img{
+        padding-top: 80px;
+    }
+    #about{
+        background: chocolate;
+    }
+    .about .inner{
+        width: 100%;
+        padding: 25px;
+    }
+    .about .inner p{
+        font-size: 30px;
+        text-align: justify;
+    }
+    .education .inner div,.hobbies .inner div,.skills .inner div{
+        width: 100%;
+    }
+    .hobbies .inner div{
+        border: 2px solid #d3d3d3;
+    }
+}
+@media(min-width: 768px) and (max-width:1023px){
+    
+}
+@media (min-width: 1024px) and (max-width: 1439px){
+     
+}

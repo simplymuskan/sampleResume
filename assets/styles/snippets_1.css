@@ -1,0 +1,67 @@
+body{
+    margin: 0px;
+}
+.button button{
+    /* padding: 15px 25px
+      top-bottom , left-right
+      top,left-right,bottom
+      top,right,left,bottom
+      top-right-left-bottom
+    */
+    background-color: beige;
+    border-radius: 50px ;
+    border-color: blue;
+}
+.gradient{
+    min-height: 500px;
+    background-image: linear-gradient(orange,#fff,yellow);
+}
+.transition{
+    background: none;
+    transition: background 3s;
+}
+.transition:hover{
+    background: blue;
+}
+.button button a{
+    color: crimson;
+    text-decoration: none;
+}
+@media(min-width:1440px) and (max-width:2560px){
+    .button .xl{
+    padding: 15px 45px;
+    font-size: 36px;
+    }
+}
+@media(min-width:1024px) and (max-width:1439px){
+    .button .lg{
+    padding: 13px 35px;
+    font-size: 24px;
+}2
+}
+@media(min-width:768px) and (max-width:1023px){
+    .button .md{
+    padding: 11px 25px;
+    font-size: 18px;
+}
+}
+@media(min-width:425px) and (max-width:767px){
+    .button .sm{
+    padding: 9px 15px;
+    font-size: 16px;
+}
+}
+@media(min-width:320px) and (max-width:424px){
+    .button .xs{
+    padding: 7px 5px;
+    font-size: 12px;
+}
+}
+.background{
+    background-image: url('http://santy.in/wp-content/uploads/2020/04/2450900-scaled.jpg');
+    min-height: 500px;
+
+}
+
+
+
